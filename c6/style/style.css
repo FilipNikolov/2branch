@@ -1,0 +1,16 @@
+h2 {color: red;
+margin:0px 500px 0px 500px  }
+a { display:block;
+background: red;}
+
+.BlockA {background:green;
+width: 200px;
+height: 200px;
+display: inline-block;
+float: left;}
+
+.BlockB {background:blue;
+width: 200px;
+height: 200px;
+display: inline-block;
+float:right}

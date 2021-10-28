@@ -1,0 +1,101 @@
+.main1 {
+    background: pink;
+    margin: 0px;
+    width: 50%;
+    height: 100%;
+    display: inline-block
+}
+
+.main2 {
+    background: brown;
+    margin: 0px;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: right;
+}
+
+.insideRed {
+    background: red;
+    width: 25%;
+    height: 200px;
+    display: inline-block;
+    float: left;
+}
+
+.between {
+    background: pink;
+    width: 50%;
+    height: 200px;
+    display: inline-block
+}
+
+.insideRedR {
+    background: red;
+    width: 25%;
+    height: 200px;
+    display: inline-block;
+    float: right;
+}
+
+.yellow {
+    background: yellow;
+    width: 33.33%;
+    height: 200px;
+    display: inline-block;
+    float: left;
+}
+
+.DarkBlue {
+    background: darkblue;
+    width: 33.33%;
+    height: 200px;
+    display: inline-block;
+}
+
+.Blue {
+    background: blue;
+    width: 33.33%;
+    height: 200px;
+    display: inline-block;
+    float: right;
+}
+
+.BlueLeft {
+    background: blue;
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+    float: left;
+}
+
+.between2 {
+    background: brown;
+    width: 60%;
+    height: 200px;
+    display: inline-block
+}
+
+.BlueRight {
+    background: blue;
+    width: 20%;
+    height: 200px;
+    float: right;
+    display: inline-block;
+}
+
+.Black {
+    background: black;
+    width: 50%;
+    height: 200px;
+    display: inline-block;
+    float: left;
+}
+
+.DarkBlue1 {
+    background: darkblue;
+    width: 50%;
+    height: 200px;
+    display: inline-block;
+    float: right;
+}
