@@ -1,0 +1,62 @@
+
+body {
+    background-image: url(../Images/moroccan-flower-dark.png);
+}
+
+.FirstTitle {
+    color: black;
+    font-size: 40px;
+}
+
+.BlackWhite {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+.insidebox1 {
+    background-color: white;
+    width: 50%;
+    height: 50%;
+
+}
+
+.SecondTitle {
+    color: blue;
+    font-size: 80px;
+}
+
+.BlueGreen {
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+}
+
+.insidebox2 {
+    background-color: green;
+    width: 50%;
+    height: 50%;
+}
+
+.ThirthTitle {
+    color: yellow;
+    font-size: 20px;
+}
+
+.Yellow {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.firstbox {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.secondbox {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+}

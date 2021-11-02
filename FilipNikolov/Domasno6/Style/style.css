@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: 4F91CD;
+    width: 1920px;
+    height: 200px;
+}
+
+.quick-nav {
+    width: 33%;
+    height: 70px;
+    display: inline-block;
+}
+
+.branding {
+    width: 33%;
+    height: 100px;
+    display: inline-block;
+}
+
+.utilities {
+    width: 33%;
+    height: 70px;
+    display: inline-block;
+}
+
+.quick-nav a {
+    font-family: "Monaco", monospace;
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid;
+    font-size: 20px;
+    padding: 6px;
+    margin: 50% 10px 0 10px;
+}
+
+.branding h1 {
+    color: white;
+    font-size: 55px;
+    font-family: "Times New Roman", serif;
+    font-weight: 200;
+    padding-top: 20px;
+    margin: 0px 25% 0 25%;
+    letter-spacing: 6px
+}
+
+.branding h4 {
+    padding: 5px;
+    margin: 0 29% 0 29%;
+    color: 8AD3FC;
+    font-family: "Monaco", monospace;
+    font-size: 20px;
+}
+
+.utilities a {
+    font-family: "Monaco", monospace;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px 5px 3px 20px;
+    border-radius: 5px;
+}
+
+.utilities input[type=search] {
+    background-color: 4F91CD;
+    font-family: "Monaco", monospace;
+    font-size: 20px;
+    text-decoration: none;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px 5px 3px 20px;
+    border-radius: 5px;
+}
+
+.utilities input::placeholder {
+    color: white;
+    background-color: 4F91CD;
+}
+
+.main-nav {
+    background-color: 043867;
+    width: 1920px;
+    height: 100px;
+    margin: 0;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.main-nav li {
+    display: inline;
+    margin: 0px 20px 0px 20px;
+    border-left: solid 2px;
+    border-color: 4F91CD;
+    padding: 37px 80px 46px 85px
+}
+
+.main-nav ul {
+    margin: 0px;
+    padding: 35px;
+}
+
+.hero {
+    width: 1800px;
+    height: 500px;
+    background-image: url(../img/simmons.jpg);
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.hero h1 {
+    color: white;
+    font-weight: 10;
+    letter-spacing: 7px;
+    font-family: "Garamond", serif;
+    font-size: 90px;
+    padding: 200 450 0 550;
+}
+
+.hero h2 {
+    color: white;
+    font-weight: 10;
+    letter-spacing: 7px;
+    font-family: "Garamond", serif;
+    font-size: 50px;
+    padding: 0 0 0 530;
+}
+
+.slogan {
+    background-color: 7AA120;
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 1800px;
+    height: 150;
+}
+
+.slogan a {
+    color: white;
+    text-decoration: none;
+}
+
+.slogan a h1 {
+    font-size: 90;
+    font-weight: 100;
+    font-family: "Garamond", serif;
+    padding: 5px 0;
+    margin: 20px;
+    float: left;
+}
+
+.slogan a p {
+    font-size: 25;
+    font-weight: 100;
+    font-family: "Garamond", serif;
+    padding: 25px 0;
+    width: 900px;
+    margin: 20px;
+    float: right;
+}
+
+.callout-blocks {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    display: inline-flex;
+}
+
+.first-box {
+    background-color: E7ECF0;
+    width: 500;
+    height: 500;
+    display: inline-block;
+    margin-right: 145px;
+    margin-top: 0px;
+}
+
+.second-box {
+    background-color: E7ECF0;
+    width: 500;
+    height: 500;
+    display: inline-block;
+    margin-right: 145px;
+}
+
+.thirth-box {
+    background-color: E7ECF0;
+    width: 500;
+    height: 500;
+    display: inline-block;
+}
+
+.first-box a {
+    color: 428BCA;
+    text-decoration: none;
+}
+
+.first-box h1 {
+    font-weight: normal;
+    font-family: "Garamond", serif;
+    font-size: 60px;
+    padding: 50;
+}
+
+.first-box h5 {
+    color: 757a7f;
+    font-weight: bold;
+    font-family: "Garamond", serif;
+    font-size: 25px;
+    padding-top: 0;
+    padding-left: 50px;
+}
+
+.second-box a {
+    color: 428BCA;
+    text-decoration: none;
+}
+
+.second-box h1 {
+    font-weight: normal;
+    font-family: "Garamond", serif;
+    font-size: 60px;
+    padding: 50;
+}
+
+.second-box h5 {
+    color: 757a7f;
+    font-weight: bold;
+    font-family: "Garamond", serif;
+    font-size: 25px;
+    padding-top: 0;
+    padding-left: 50px;
+}
+
+.thirth-box a {
+    color: 428BCA;
+    text-decoration: none;
+}
+
+.thirth-box h1 {
+    font-weight: normal;
+    font-family: "Garamond", serif;
+    font-size: 60px;
+    padding: 50;
+}
+
+.thirth-box h5 {
+    color: 757a7f;
+    font-weight: bold;
+    font-family: "Garamond", serif;
+    font-size: 25px;
+    padding-top: 0;
+    padding-left: 50px;
+}
+
+.callout-blocks-second-row {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    display: inline-flex;
+}
+
+.fourth-box {
+    background-color: #620E6E;
+    width: 500;
+    height: 500;
+    display: inline-block;
+    margin-right: 145px;
+    margin-top: 0px;
+}
+
+.fourth-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.fourth-box h1 {
+    font-weight: normal;
+    font-family: "Garamond", serif;
+    font-size: 60px;
+    padding-top: 30;
+    padding-left: 50;
+    width: 300px;
+}
+
+.fifth-box {
+    background-color: #4385c1;
+    width: 500;
+    height: 500;
+    display: inline-block;
+    margin-right: 145px;
+    margin-top: 0px;
+}
+
+.fifth-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.fifth-box h1 {
+    font-weight: normal;
+    font-family: "Garamond", serif;
+    font-size: 60px;
+    padding-top: 30;
+    padding-left: 50;
+    width: 300px;
+}
+
+.sixth-box {
+    background-color: white;
+    width: 500;
+    height: 500;
+    display: inline-block;
+    margin-right: 145px;
+    margin-top: 0px;
+}
+
+.sixth-box h4 {
+    font-family: "Garamond", serif;
+    font-size: 30px;
+}
+
+.sixth-box h3 {
+    width: 50%;
+    color: yellowgreen;
+    font-family: "Garamond", serif;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.sixth-box .number {
+    width: 50%;
+    color: yellowgreen;
+    font-family: "Garamond", serif;
+    font-size: 50px;
+    padding-left: 30px;
+}
+
+.date-boxes {
+    float: left;
+}
+
+.date-boxes .db1 {
+    margin: 10;
+    width: 100px;
+    height: 90px;
+    border-color: grey;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.date-boxes .db2 {
+    margin: 10;
+    width: 100px;
+    height: 90px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.date-box1 a h4 {
+    margin-left: 0;
+    display: inline-flex;
+    color: #4385c1;
+    text-decoration: none;
+}
+
+.links {
+    margin-left: 50px;
+}
+
+.links .links-db1 {
+    margin-top: 30;
+    margin-left: 100;
+}
+
+.sixth-box a {
+    font-family: "Garamond", serif;
+    color: 4385c1;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.links .links-db2 {
+    margin-top: 70;
+    margin-left: 100;
+}
+
+.navigation-buttons {
+    width: 1800;
+    height: 100;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.all-buttons {
+    display: inline-flex;
+}
+
+.all-buttons a {
+    font-family: "Garamond", serif;
+    font-weight: bolder;
+    color: 4385c1;
+    text-decoration: none;
+    padding-top: 20;
+    padding-right: 98;
+    padding-bottom: 20;
+    padding-left: 98;
+    font-size: 25px;
+    border-color: 4385c1;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 30px;
+}
+
+footer {
+    background-color: #34383c;
+    width: 1920;
+    height: 1200;
+}
+
+.links-footer {
+    font-family: "Garamond", serif;
+    display: inline-flex;
+    padding-top: 50;
+    padding-right: 70;
+    padding-bottom: 0;
+    padding-left: 70;
+}
+
+footer a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #b1b6b3;
+}
+
+footer h2 {
+    color: white
+}
+
+.links-footer-second {
+    font-family: "Garamond", serif;
+    display: inline-flex;
+    padding-top: 50;
+    padding-right: 70;
+    padding-bottom: 50;
+    padding-left: 70;
+}
+
+.last-row {}
+
+.last-row h2 {
+    padding-top: 50;
+    padding-right: 50;
+    padding-bottom: ;
+    padding-left: 470;
+    color: white;
+    border-top: #b1b6b3 solid 1px;
+}
