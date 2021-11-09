@@ -1,0 +1,38 @@
+        .flex-container {
+            width: 700px;
+            margin: 50px auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+        .block {
+            width: 100px;
+            height: 100px;
+            background-color: #2ecc71;
+            border: solid 1px black;
+            text-align: center;
+            line-height: 102px;
+            color: white;
+            font-size: 20px;
+        }
+        
+        .other-flex {
+            width: 700px;
+            height: 700px;
+            margin: 0px auto;
+            padding: 20px;
+            border: 2px dotted black;
+            display: flex;
+            flex-flow: column wrap;
+        }
+        
+        .other-block {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            border: 1px solid grey;
+            color: #fff;
+            text-align: center;
+            line-height: 102px;
+        }
