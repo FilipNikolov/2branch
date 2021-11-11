@@ -1,0 +1,217 @@
+            html,
+            body {
+                margin: 0px;
+            }
+            
+            body {
+                width: 100%;
+                height: 100%;
+                margin: 0px;
+                background-image: url(../img/tacosbackground.jpg);
+            }
+            
+            header {
+                width: 100%;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .buttons {
+                padding: 50px;
+                width: 90%;
+                height: 100%;
+                font-family: 'Passion One';
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .buttons a {
+                width: 18%;
+                height: 40%;
+                background-color: #ffc300;
+            }
+            
+            .buttons a {
+                margin: 0px;
+                text-decoration: none;
+                font-size: 25px;
+                display: flex;
+                color: #272727;
+                text-shadow: 1px 1px 1px #2C2C2C;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .main-sec {
+                width: 100%;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .inside {
+                margin: 0px;
+                padding-top: 20px;
+                width: 90%;
+                height: 350px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 150px 150px;
+                gap: 20px;
+            }
+            
+            .img-div {
+                background-image: url(../img/taco.jpg);
+                grid-column: 1 / 3;
+                grid-row: 1 / 3;
+            }
+            
+            .first {
+                background-color: #ffc300;
+                grid-row: 1/2;
+                grid-column: 3 / 5;
+                gap: 10px;
+            }
+            
+            .second {
+                background-color: #ffc300;
+                grid-row: 2/3;
+                grid-column: 3 / 5;
+                gap: 10px;
+            }
+            
+            .img-div {
+                padding: 20px;
+                color: #272727;
+                font-family: 'Passion One';
+                letter-spacing: 2px;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+            }
+            
+            .img-div h1 {
+                padding: 5px;
+                width: 20%;
+                background-color: #ffc300;
+            }
+            
+            .img-div span {
+                padding: 5px;
+                width: 15%;
+                background-color: #ffc300;
+            }
+            
+            .price-div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            
+            .price-div span {
+                font-family: 'Passion One';
+            }
+            
+            .price-div h1 {
+                margin: 0px;
+                font-family: 'Poppins', sans-serif;
+                font-size: 50px;
+            }
+            
+            .thirth-sec {
+                width: 100%;
+                height: 200px;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .boxes {
+                width: 90%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+            }
+            
+            .box {
+                width: 23%;
+                height: 100%;
+                background-color: white;
+            }
+            
+            a .items {
+                padding: 10px;
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .boxes a {
+                text-decoration: none;
+                color: #272727;
+                font-family: 'Passion One';
+                letter-spacing: 1px;
+            }
+            
+            .items p {
+                text-decoration: none;
+                text-align: center;
+                color: #7c7c7c;
+            }
+            
+            .fourth-sec {
+                padding-top: 30px;
+                padding-bottom: 30px;
+                width: 100%;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .main-div {
+                width: 90%;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            
+            .main-div .taco {
+                width: 460px;
+                height: 330px;
+            }
+            
+            .main-div .text-div {
+                width: 320px;
+                color: #272727;
+                font-family: 'Passion One';
+                letter-spacing: 1px;
+                display: flex;
+                flex-flow: column wrap;
+                text-align: left;
+            }
+            
+            .text-div a {
+                text-decoration: none;
+                color: #272727;
+                padding: 10px;
+                background-color: #ffc300;
+                border: 1px solid #272727;
+                width: 100px;
+                height: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            
+            .text-div .arrow {
+                width: 17px;
+                height: 18px;
+                display: flex;
+                align-items: center;
+            }
