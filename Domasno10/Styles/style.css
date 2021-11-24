@@ -1,0 +1,351 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        body {
+            background-color: #eaedf2;
+            padding: 50px;
+        }
+        
+        header {
+            width: 100%;
+            background-color: white;
+            border-radius: 15px 15px 0px 0px;
+        }
+        
+        nav {
+            padding: 20px;
+            display: grid;
+            grid-template-rows: 1;
+            grid-template-columns: repeat(4, 1fr);
+        }
+        
+        #logo {
+            grid-column: 1/2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #logo a {
+            color: #1c2232;
+        }
+        
+        #search-bar {
+            width: 80%;
+            margin: 0 auto;
+            grid-column: 2/4;
+            background-color: #eaedf2;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding-left: 10px;
+            gap: 10px;
+        }
+        
+        #search-bar input {
+            height: 20px;
+            background-color: #eaedf2;
+            border: none;
+            width: 90%;
+        }
+        
+        #search-bar input:focus {
+            outline: none;
+        }
+        
+        #nav-menu {
+            grid-column: 4/5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        #nav-menu a {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            padding: 10px;
+            background-color: #eaedf2;
+        }
+        
+        #nav-menu a img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #nav-menu #avatar {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+        }
+        
+        main {
+            width: 100%;
+            padding: 30px 0px;
+            background-color: #f3f6f8;
+        }
+        
+        #grid-boxes {
+            width: 90%;
+            padding: 0% 5%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(15, 50px);
+            gap: 20px;
+        }
+        
+        #left-column {
+            display: grid;
+            grid-column: 1/2;
+            grid-row: 1/15;
+            gap: 20px;
+        }
+        
+        #center-column {
+            display: grid;
+            grid-column: 2/4;
+            grid-row: 1/15;
+            gap: 20px;
+        }
+        
+        #right-column {
+            display: grid;
+            grid-column: 4/5;
+            grid-row: 1/15;
+            gap: 20px;
+        }
+        
+        #activity {
+            width: 100%;
+            grid-row: 1/7;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        #explore {
+            width: 100%;
+            grid-row: 7/17;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        #stories {
+            width: 100%;
+            grid-row: 1/3;
+            background-color: white;
+            border-radius: 20px;
+            gap: 20px;
+        }
+        
+        #post1 {
+            width: 100%;
+            grid-row: 3/10;
+            background-color: white;
+            border-radius: 20px;
+            gap: 20px;
+        }
+        
+        #post2 {
+            width: 100%;
+            grid-row: 10/15;
+            background-color: white;
+            border-radius: 20px;
+            gap: 20px;
+        }
+        
+        #messages {
+            width: 100%;
+            grid-row: 1/9;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        #suggestions {
+            width: 100%;
+            grid-row: 9/15;
+            background-color: white;
+            border-radius: 20px;
+        }
+        
+        #activity .text-adjust {
+            padding: 20px;
+        }
+        
+        #activity nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #activity .title {
+            color: #1c2232;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        #activity .see-all {
+            color: #a8aebe;
+            font-size: 15px;
+            font-weight: normal;
+        }
+        
+        #activity .stories1 {
+            display: flex;
+            justify-content: start;
+            color: #1c2232;
+            font-size: 17px;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        
+        .mention-main {
+            display: flex;
+            flex-flow: row wrap;
+        }
+        
+        .mention-box {
+            padding: 10px;
+            width: 200px;
+            display: flex;
+            text-align: left;
+            flex-flow: row wrap;
+        }
+        
+        #activity img {
+            padding: 10px;
+            display: flex;
+            flex-flow: wrap row;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+        
+        .mention-box #mentions {
+            color: #1c2232;
+            font-weight: bold;
+        }
+        
+        .mention-box #text-bottom {
+            color: #a8aebe;
+            font-size: 15px;
+            font-weight: normal;
+        }
+        
+        .notification {
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            flex-flow: row wrap;
+        }
+        
+        .not-box {
+            padding-right: 60px;
+            width: 150px;
+        }
+        
+        .notification .nickname {
+            color: #1c2232;
+            font-weight: bold;
+        }
+        
+        .notification .nickname .text-around {
+            color: #1c2232;
+            font-weight: normal;
+        }
+        
+        .notification .nickname .minute {
+            color: #a8aebe;
+            font-weight: normal;
+        }
+        
+        .addfriend {
+            width: 40px;
+            height: 40px;
+        }
+        
+        #explore .text-adjust {
+            padding: 20px;
+        }
+        
+        #explore nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #explore .title {
+            color: #1c2232;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        #explore .see-all {
+            color: #a8aebe;
+            font-size: 15px;
+            font-weight: normal;
+        }
+        
+        .buttons-explore {
+            display: flex;
+            justify-content: space-around;
+            flex-flow: row wrap;
+        }
+        
+        .buttons-explore a {
+            padding: 15px;
+            color: #1c2232;
+            font-weight: bolder;
+            border-radius: 15px;
+            background-color: #f3f6f8;
+            display: block;
+        }
+        
+        #grid-boxes-explore img {
+            width: 90px;
+            height: 70px;
+            border-radius: 10px;
+        }
+        
+        #grid-boxes-explore {
+            padding-top: 10px;
+            padding-right: 5%;
+            padding-left: 5%;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(3, 90px);
+            grid-template-rows: repeat(4, 60px);
+        }
+        
+        .left-column-box {
+            grid-column: 1/2;
+            grid-row: 1/5;
+        }
+        
+        .center-column-box {
+            grid-column: 2/3;
+            grid-row: 1/5;
+        }
+        
+        .right-column-box {
+            grid-column: 3/4;
+            grid-row: 1/5;
+        }
+        
+        .button-explore .first {
+            position: relative;
+        }
+        
+        .arrow {
+            background-color: black;
+            position: absolute;
+            left: 480px;
+            border-radius: 50%;
+        }
