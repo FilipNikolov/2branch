@@ -68,3 +68,11 @@
 
 
 // }
+var height = prompt("Height");
+var allowed_height = 180;
+
+if (height >= allowed_height) {
+    console.log(`${height} is allow.`)
+} else if (height < allowed_height) {
+    console.log(`${height} is not allowed.`)
+}
